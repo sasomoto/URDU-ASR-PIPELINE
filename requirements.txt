@@ -1,0 +1,12 @@
+torch>=2.0.0
+transformers>=4.46.0
+tensorflow>=2.15.0
+librosa
+jiwer
+soundfile
+datasets
+numpy
+scipy
+pandas
+matplotlib
+seaborn
