@@ -1,0 +1,35 @@
+urdu-asr-pipeline/
+├── data/
+│   ├── raw_audio/            # Raw audio files in Urdu
+│   ├── transcriptions/       # Ground truth text transcriptions
+│   ├── processed/            # Preprocessed audio and text files
+│   └── test_samples/         # Test data for evaluation
+├── models/
+│   ├── checkpoints/          # Intermediate training checkpoints
+│   ├── final_model/          # Final trained Urdu ASR model
+│   └── tokenizer/            # Tokenizer data for ASR
+├── scripts/
+│   ├── preprocess_audio.py   # Script to process and prepare audio files
+│   ├── generate_transcripts.py # Script for transcription generation
+│   ├── evaluate_wer.py       # Script to calculate Word Error Rate (WER)
+│   ├── train_asr_model.py    # Script for training the ASR model
+│   └── utils.py              # Utility functions
+├── notebooks/
+│   ├── data_exploration.ipynb # Initial data exploration and visualization
+│   ├── model_training.ipynb  # Model training and hyperparameter tuning
+│   └── evaluation.ipynb      # Evaluation and WER analysis
+├── results/
+│   ├── logs/                 # Training and evaluation logs
+│   ├── evaluation_report.txt # Summary of performance metrics (e.g., WER)
+│   └── plots/                # Visualizations like loss curves, WER trends
+├── config/
+│   ├── model_config.yaml     # Configuration file for model parameters
+│   └── preprocess_config.yaml # Configuration file for preprocessing settings
+├── tests/
+│   ├── test_preprocessing.py # Unit tests for preprocessing
+│   ├── test_training.py      # Unit tests for model training
+│   └── test_wer.py           # Unit tests for WER calculations
+├── requirements.txt          # Python dependencies
+├── README.md                 # Detailed project description and usage
+├── LICENSE                   # License for the repository
+└── .gitignore                # Ignore unnecessary files in the repository
